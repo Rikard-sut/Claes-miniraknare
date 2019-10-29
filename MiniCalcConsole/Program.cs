@@ -17,9 +17,6 @@ namespace MiniCalcConsole
         {
             static void Main(string[] args)
             {
-                Console.WriteLine("Meh!!");
-
-
                 Console.WriteLine("Enter the action to be performed");
                 Console.WriteLine("Press 1 for Addition");
                 Console.WriteLine("Press 2 for Subtraction");
@@ -60,7 +57,12 @@ namespace MiniCalcConsole
                 Console.WriteLine("The result is {0}", result);
                 Console.ReadKey();
             }
-            //Addition  
+            /// <summary>
+            /// Addition
+            /// </summary>
+            /// <param name="input_1"></param>               //tog fram metod kommentarer
+            /// <param name="input_2"></param>
+            /// <returns></returns>
             public static int Addition(int input_1, int input_2)
             {
                 int result = input_1 + input_2;
