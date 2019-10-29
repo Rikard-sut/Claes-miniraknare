@@ -17,6 +17,9 @@ namespace MiniCalcConsole
         {
             static void Main(string[] args)
             {
+                Console.WriteLine("Meh!!");
+
+
                 Console.WriteLine("Enter the action to be performed");
                 Console.WriteLine("Press 1 for Addition");
                 Console.WriteLine("Press 2 for Subtraction");
